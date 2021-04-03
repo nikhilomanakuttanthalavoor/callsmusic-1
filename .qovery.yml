@@ -1,0 +1,11 @@
+---
+application:
+  name: "callsmusic-1"
+  project: "wastatusvc "
+  organization: "QoveryCommunity"
+routers:
+- name: "main-callsmusic-1"
+  routes:
+  - application_name: "callsmusic-1"
+    paths:
+    - "/*"
